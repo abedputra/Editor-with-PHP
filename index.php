@@ -13,7 +13,7 @@ include once "header.php";
                 <textarea name="text" id="editor"  rows="20" class="form-control"><?php echo htmlspecialchars($text) ?></textarea>
             </div>
             <div class="form-group">
-                  <input type="submit" class="btn btn-primary"/>
+                  <input type="submit" class="btn btn-primary" value="Save"/>
               </div>
         </form>
 <?php
