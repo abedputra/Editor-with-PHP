@@ -1,8 +1,7 @@
 <?php
 
 // configuration
-$url = 'http://abedputra.com/editor.php';
-$file = 'textedit.php';
+include once "configuration.php";
 
 // check if form has been submitted
 if (isset($_POST['text']))
