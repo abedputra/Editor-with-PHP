@@ -4,7 +4,7 @@
 include once "configuration.php";
 
 // check if form has been submitted
-if (isset($_POST['text']))
+if (isset($_POST['text'])) //check text is isset
 {
     // save the text contents
     file_put_contents($file, $_POST['text']);
