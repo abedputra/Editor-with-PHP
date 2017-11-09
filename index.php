@@ -5,7 +5,7 @@ include_once "header.php";
         <div class="page-header">
             <h1>Editor <small>for PHP</small></h1>
         </div>
-        <h3>For file: <a href="http://abedputra.com/<?php echo $file; ?>" target="_blank"><?php echo $file; ?></a>
+        <h3>For file: <a href="<?php echo $file; ?>" target="_blank"><?php echo $file; ?></a>
         </h3>
         <!-- HTML form -->
         <form action="" method="post" class="form-group">
