@@ -1,7 +1,7 @@
 <?php
 
 // configuration
-include once "configuration.php";
+include_once "configuration.php";
 
 // check if form has been submitted
 if (isset($_POST['text'])) //check text is isset
